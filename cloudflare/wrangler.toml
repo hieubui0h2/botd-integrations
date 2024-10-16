@@ -1,14 +1,8 @@
-name = ""
+name = "fingerprintjs-botd-gmc"
 type = "javascript"
 
-account_id = ""
+account_id = "9b77db2b502aaeb3996a57b9c0b8e441"
 workers_dev = true
-route = ""
-zone_id = ""
-
-kv_namespaces = [
-    { binding = "CONFIG", preview_id = "", id = "" }
-]
 
 [build]
 command = "npm install && npm run build"
